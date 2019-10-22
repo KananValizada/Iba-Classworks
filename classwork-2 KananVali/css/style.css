@@ -1,0 +1,274 @@
+@import "fonts.css"{
+
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 7px solid red;
+}
+/*width -> 150 + (10*2) + (7*2) = 184*/
+/*height -> 150 + (5*2) + (7*2) = 174*/
+
+.colored-text {
+    font-size: 24px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.ten-pers-smaller{
+    transform: scale(0.9);
+}
+
+.sertiz-top {
+    background: url("../img/sertiz-top-background.png") no-repeat ;
+    background-size: cover;
+    color: white;
+    padding: 530px 0 145px 215px;
+}
+.sertiz-top-title {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.sertiz-top-slogan {
+    display: inline-block;
+    padding: 45px 30px;
+    font-size: 54px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+}
+.yelow-text {
+    color: #f1ad1d;
+}
+.mr30 {
+    margin-right: 30px;
+}
+.link {
+    display: inline-block;
+    color: white;
+    background-color: darkcyan;
+    padding: 20px;
+    text-decoration: none;
+}
+.text-block{
+    text-align: center;
+}
+.yellow-line{
+    width: 60px;
+    border-bottom: 3px solid #f1ad1d;
+    margin-bottom: 60px;
+}
+.centered{
+    margin:0 auto;
+    display: block;
+}
+.text-block-header{
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.text-block-subheader{
+    margin-bottom: 52px;
+}
+.container {
+    width: 1280px;
+    margin:0 auto;
+}
+section{
+    padding: 50px 0;
+}
+.navigation-bar{
+    margin:0 auto;
+    border-bottom :3px solid yellow;
+    padding-bottom: 20px;
+}
+.navbar-menu{
+    display: inline-block;
+    margin-left: calc(100% - 136px - 420px);
+}
+.navbar-menu >ul> li{
+    display: inline-block;
+}
+.navbar-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    font-family: 'Loto',sans-serif;
+}
+
+
+.project-images{
+    width: calc(100% / 2 - 30px);
+    float: left;
+}
+.project-text{
+    width: calc(100% / 2 - 30px);
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.project-text-title{
+    text-transform: uppercase;
+    font-weight:700 ;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+
+}
+.project-text-description{
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Lato',sans-serif;
+    text-align: justify;
+}
+.project-text-link{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f1ad1d;
+    padding: 20px 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 35px;
+    font-family: 'Lato',sans-serif;
+}
+.project-image{
+    float:left;
+    margin:0 30px 20px 0;
+    width:270px;
+    height: 148px;
+}
+.content-text{
+    background-color: #333333;
+    display: inline-block;
+    margin: 80px 0 0 20px;
+    padding: 16px 36px 14px 14px;
+    color:#a0a0a0 ;
+    font-family: 'Lato',sans-serif;
+}
+.consulting{
+    background-image: url(../img/img4.png);
+}
+.photography{
+    background-image: url("../img/img3.png");
+}
+.web-design {
+    background-image: url("../img/img2.png");
+}
+.advertising {
+    background-image: url("../img/img1.png");
+}
+.cards-item-title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #333333;
+    padding: 20px 75px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.cards-item{
+    width: calc(100% / 4 - 30px);
+text-align: center;
+    line-height: 1.5;
+    border-bottom:3px solid black ;
+    float: left;
+    margin-right:40px ;
+}
+.cards-item:last-child{
+    margin-right: 0;
+}
+.cards-item-icon{
+    font-size: 50px;
+    margin-bottom:30px ;
+}
+.cards-item-text{
+   font-size:14px ;
+
+}
+.cards-item-text::after{
+    content: "";
+    display: block;
+    border: 3px solid yellow;
+    width: 64px;
+    margin: 25px auto;
+}
+.cards-item-description{
+margin-bottom: 30px;
+}
+.cards-item-subttitle{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.yelow-text {
+    color: #f1ad1d;
+}
+.quotes{
+    margin-top: 50px;
+}
+.quotes-text{
+    padding: 30px 0;
+    border-bottom: 2px solid black;
+    text-align: justify;
+}
+.quotes-item{
+    width: calc(100% / 3 - 30px);
+    float: left;
+    margin-right:45px ;
+}
+.quotes-item:last-child{
+    margin-right: 0;
+}
+.quotes-item-icon{
+    font-size: 52px;
+    color: #f1ad1d;
+}
+.quotes-item-icon::after{
+    content: "";
+    display:inline-block;
+    border-top: 3px solid #f1ad1d;
+    width: 334px;
+    margin-left: 10px;
+    vertical-align: 10px;
+
+
+}
+.quotes-info{
+    margin-top: 15px;
+}
+.quotes-img{
+    float: left;
+    margin-right: 10px;
+}
+.quote-texts{
+    float: left;
+    margin-top:10px
+}
+.job{
+    float: left;
+
+ }
+
+
+
+
+
+
+

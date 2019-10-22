@@ -1,0 +1,73 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 7px solid red;
+}
+/*width -> 150 + (10*2) + (7*2) = 184*/
+/*height -> 150 + (5*2) + (7*2) = 174*/
+
+.colored-text {
+    font-size: 24px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.ten-pers-smaller{
+    transform: scale(0.9);
+}
+
+.sertiz-top {
+    background: url("../img/sertiz-top-background.png");
+    color: white;
+    padding: 530px 0 145px 215px;
+}
+.sertiz-top-title {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.sertiz-top-slogan {
+    display: inline-block;
+    padding: 45px 30px;
+    font-size: 54px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+}
+.yelow-text {
+    color: #f1ad1d;
+}
+.mr30 {
+    margin-right: 30px;
+}
+.link {
+    display: inline-block;
+    color: white;
+    background-color: darkcyan;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
